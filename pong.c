@@ -166,8 +166,8 @@ int main_menu(void) {
 int difficulty_menu(void) {
     const char *items[] = {
         "Kolay",
-        "Dengeli",
-        "Agresif"
+        "Orta",
+        "Zor"
     };
 
     int selected = arrow_menu("ZORLUK SECIMI", items, 3);
@@ -324,7 +324,7 @@ void winner_announce_screen(const char *winnerName) {
     );
 
     refresh();
-    sleep(2);
+    sleep(3);
 }
 
 /* ---------------------------------------------------------- */
