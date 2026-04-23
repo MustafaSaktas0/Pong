@@ -1,0 +1,2 @@
+Oyuncu 1: 0
+Oyuncu 2: 5
